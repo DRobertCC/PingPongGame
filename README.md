@@ -4,7 +4,7 @@
 
 Basic, single player Ping Pong Game written in C# (Windows Forms App .NET Framework)
 
-##Feature set:
+## Features:
 
 - Application is started and stopped normally
 - Pressing ESC stops the the application
@@ -13,9 +13,16 @@ Basic, single player Ping Pong Game written in C# (Windows Forms App .NET Framew
 - Score is shown after I am done/stopped
 - Score is visible continuously
 - Levels are defined (harder)
-- Gifts can be reached
 - Level is visible
 - Progress is shown in the level (procent)
+
+## How to play?
+
+### Levels:
+
+- Easy: The width of the Racket is 1/4-th of the width of the playground. After every 5th hit the game becomes fater.
+- Medium: The width of the Racket is 1/8-th of the width of the playground. After every 5th hit the game becomes fater.
+- Hard: The width of the Racket is 1/4-th of the width of the playground. After every 10th hit the game becomes fater and the racket 10% smaller.
 
 ## About
 

@@ -237,7 +237,7 @@ namespace PingPongGame
             if (e.KeyCode == Keys.D3 && !pause_Label.Visible && difficultyMenu_Label.Visible)
             {
                 topScore = topScoreH;
-                ResetGame(racketInitialWith, 1, "Hard Game");
+                ResetGame(racketInitialWith, 10, "Hard Game");
                 racketWidthShrinkMultiplier = 0.9f;
             }
         }
